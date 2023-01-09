@@ -1,0 +1,95 @@
+.trying_to_solve_sec {
+  padding: 50px 0px;
+}
+.trying_to_solve_sec h1.heading_title {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #3dbca1;
+  margin-bottom: 100px;
+}
+.trying_to_solve_sec .student,
+.trying_to_solve_sec .school,
+.trying_to_solve_sec .tuition {
+  position: relative;
+}
+/* img {
+    vertical-align: middle;
+} */
+.trying_to_solve_sec .student img.student_arrow_img {
+  position: absolute;
+  bottom: 28px;
+  right: -103px;
+  width: 255px;
+}
+.trying_to_solve_sec .student h2 {
+  text-align: left;
+}
+.trying_to_solve_sec h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+.trying_to_solve_sec img.school_arrow_img {
+  position: absolute;
+  top: -39px;
+  left: 106px;
+  width: 265px;
+}
+.trying_to_solve_sec img.school_img {
+  width: 245px;
+  height: 200px;
+}
+.trying_to_solve_sec img.tuition_img {
+  width: 245px;
+  height: 270px;
+}
+.trying_to_solve_sec img.tuition_arrow_img {
+  position: absolute;
+  bottom: -70px;
+  left: 163px;
+}
+.trying_to_solve_sec .still_confused {
+  text-align: right;
+  padding-top: 69px;
+}
+@media screen and (max-width: 767px) {
+  .trying_to_solve_sec {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .trying_to_solve_sec h1.heading_title {
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 50px;
+  }
+  .trying_to_solve_sec .student img.student_arrow_img,
+  .trying_to_solve_sec img.school_arrow_img,
+  .trying_to_solve_sec img.tuition-arrow-img {
+    display: none;
+  }
+  .trying_to_solve_sec h2 {
+    text-align: center !important;
+  }
+  .trying_to_solve_sec .still_confused {
+    text-align: center;
+  }
+
+  .trying_to_solve_sec .still_confused {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .trying_to_solve_sec h1.heading_title {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}

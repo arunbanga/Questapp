@@ -1,0 +1,53 @@
+.your_turn_sec {
+  padding: 80px 0px;
+}
+.your_turn_sec .your_turn_con p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 106.5%;
+  color: #000;
+}
+.your_turn_sec .your_turn_con p span {
+  color: #3dbca1;
+}
+.your_turn_sec .your_turn_con h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 106.5%;
+  color: #3dbca1;
+  margin-bottom: 40px;
+}
+.a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+.your_turn_con img.gPay_play_btn {
+  margin-right: 20px;
+}
+
+/* img{
+    vertical-align: middle;
+} */
+@media screen and (max-width: 767px) {
+  .your_turn_img {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .your_turn_sec .your_turn_con p {
+    font-size: 30px !important;
+  }
+  .your_turn_sec .your_turn_con h2 {
+    font-size: 45px !important;
+    line-height: 70.5% !important;
+    margin-bottom: 30px !important;
+  }
+  .your_turn_sec {
+    padding: 0px !important;
+  }
+}

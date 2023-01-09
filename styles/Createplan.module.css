@@ -1,0 +1,36 @@
+.createMy_plan_con {
+  background: linear-gradient(180deg, #3dbca1 0%, #ffffff 100%);
+  border: 0.707351px solid #d9d9d9;
+  border-radius: 14.147px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.create_my_plan_title {
+  margin-right: 25px;
+}
+.createMy_plan_con .create_my_plan_title h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32.7711px;
+  line-height: 33px;
+  color: #000000;
+}
+/* img{
+    vertical-align: middle;
+} */
+
+@media screen and (max-width: 768px) {
+  .createMy_plan_con {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .createMy_plan_con .create_my_plan_title h2 {
+    font-size: 25.7711px !important;
+  }
+}

@@ -1,0 +1,137 @@
+.every_student_needs_personalised {
+  padding: 50px 0px;
+  text-align: center;
+}
+.every_student_needs_personalised h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+.every_student_needs_personalised h2 span {
+  color: #3dbca1;
+}
+.every_student_needs_personalised .learning_needs_inner_con button {
+  display: flex;
+  background: #3dbca1;
+  border-radius: 13.8284px;
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.7503px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: 1.84379px solid #ffffff;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.every_student_needs_personalised .learning_needs-inner_con img {
+  width: 100%;
+}
+/* img {
+    vertical-align: middle;
+} */
+.student_input_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student_input_details img.arrow_rightone {
+  width: 144px;
+}
+.our_study_plan {
+  padding-top: 50px;
+}
+.our_study_plan p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  color: #3dbca1;
+}
+
+@media screen and (max-width: 767px) {
+  .every_student_needs_personalised h2 {
+    font-size: 34px;
+  }
+  .every_student_needs_personalised {
+    padding: 20px 0px;
+  }
+  .student_plan_Btn {
+    margin-bottom: 30px;
+  }
+  .student_input_details h3.std_plan_title {
+    text-align: center;
+  }
+  .study_plan_middle_img .btn_shap-area .btn_shap_right {
+    right: 100px;
+  }
+  .study_plan_middle_img .btn_shap_area .btn_shap {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .study_plan_inner_con h2.heading_title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .study_plan_now {
+    padding: 25px 0px;
+  }
+  .study_plan_inner_con p {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .every_student_needs_personalised h2 {
+      font-size: 23px;
+    }
+  }
+  .study_plan_leftTop_div p span,
+  .study_plan_rightTop_div span,
+  .study_plan_leftbottom_div span,
+  .study_plan_rightbottom_div span {
+    font-size: 18px !important;
+  }
+  .study_plan_leftTop_div {
+    left: -5px !important;
+    padding: 10px 10px !important;
+  }
+  .study_plan_leftbottom_div {
+    left: -5px !important;
+    padding: 10px 10px !important;
+  }
+  .study_plan_rightTop_div {
+    right: 0px !important;
+    padding: 10px 10px !important;
+  }
+  .study_plan_rightbottom_div {
+    right: -5px !important;
+    padding: 10px 10px !important;
+  }
+  .study_plan_middle_img img.trophy_img {
+    display: none !important;
+  }
+  .our_study_plan p {
+    font-size: 18px !important;
+  }
+  .study_plan_middle_img p.paragraph_title {
+    font-size: 16px;
+  }
+  .study_plan_middle_img .btn_shap_area .btn_shap_right {
+    right: 70px;
+  }
+  .study_plan_middle_img .btn_shap_area .btn_shap {
+    left: 70px;
+  }
+  .study_plan_middle_img h2.heading_title {
+    font-size: 18px !important;
+  }
+}

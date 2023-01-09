@@ -1,0 +1,113 @@
+.more_about_us {
+  padding: 50px 0px;
+}
+
+/* .more_about_us .instagram_slider_sec .page_title h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+} */
+.more_about_us .page_title h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+.instagram_slider {
+  display: block;
+  overflow: hidden;
+}
+.more_about_us .instagram_slider_img {
+  box-shadow: 0px 3px 4px 3px #88888824;
+  padding-left: 12px;
+  height: 360px;
+  width: 297px;
+}
+.more_about_us .slick_slide {
+  margin: 0 6px;
+  height: 370px;
+}
+.more_about_us .instagram_slider .slider_content h5 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+  margin-top: 15px;
+}
+.more_about_us .instagram_slider .slider_content h3 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+  margin: 15px 0px 30px;
+}
+.readMore_details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  line-height: 120%;
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ff9a6c;
+}
+.instagram_slider .instagram_slider_info .readMore_details .view_article p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ff9a6c;
+}
+.readMore_details .view_article_arrow p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ff9a6c;
+}
+.more_about_us img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .more_about_us h2.heading_title {
+    font-size: 35px;
+    line-height: 25px;
+  }
+  .more_about_inner_con {
+    margin-bottom: 20px;
+  }
+  .more_about_us .instagram_slider_img {
+    box-shadow: 0px 3px 4px 3px #88888824;
+    padding-left: 12px;
+    height: 360px;
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .more_about_us h2.heading_title {
+    font-size: 30px;
+  }
+  .more_about_us {
+    padding: 20px 0px;
+  }
+  .more_about_us h2.heading_title {
+    text-align: center;
+  }
+  .more_about_us.instagram_slider_sec .page_title h2 {
+    font-size: 30px !important;
+  }
+}

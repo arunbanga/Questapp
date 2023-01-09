@@ -1,0 +1,346 @@
+.header {
+  padding: 15px 0px;
+}
+header.header .navbar_expand_lg .navbar_collapse {
+  justify-content: flex-end;
+}
+header.header .navbar_expand_lg .navbar_collapse .navbar_nav a {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+  margin: 0px 10px;
+}
+header.header .navbar_expand_lg .navbar_collapse .navbar_nav {
+  float: right;
+}
+header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
+  text-decoration: none;
+}
+.study_plan_now {
+  padding: 50px 0px;
+  background: #3dbca1;
+}
+.study_plan_img h4 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 113%;
+  text-align: center;
+  color: #ffffff;
+  background: #fbb710;
+  margin: 0px 48px;
+  position: relative;
+  top: 5px;
+  padding: 5px 0px;
+}
+.study_plan_img h3 {
+  margin-bottom: 85px;
+  padding-top: 25px;
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+  opacity: 0.2;
+}
+.study_plan_inner_con h2.heading_title {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.study_plan_inner_con p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  margin: 25px 0px 35px 0px;
+  text-shadow: 1px 1px;
+}
+.study_plan_inner_con button.downloadBtn {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #fc7a42;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 27px;
+  border: none;
+}
+.study_plan_inner_con button.start_nowBtn {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #fc7a42;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 27px;
+  margin-left: 15px;
+  border: none;
+}
+.study_plan_right_sec {
+  text-align: center;
+  position: relative;
+}
+.study_plan_leftTop_div {
+  position: absolute;
+  top: 0;
+  left: -35px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px 20px;
+}
+.study_plan_rightTop_div {
+  position: absolute;
+  right: -35px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px 20px;
+}
+.study_plan_rightTop_div img,
+.study_plan_rightbottom_div img {
+  margin-left: 10px;
+}
+.study_plan_leftTop_div img,
+.study_plan_leftbottom_div img {
+  margin-right: 10px;
+}
+.study_plan_leftTop_div p,
+.study_plan_rightTop_div p,
+.study_plan_leftbottom_div p,
+.study_plan_rightbottom_div p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: left;
+}
+.study_plan_leftTop_div p span,
+.study_plan_rightTop_div span,
+.study_plan_leftbottom_div span,
+.study_plan_rightbottom_div span {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: #3dbca1;
+  display: block;
+}
+.study_plan_leftTop_div img,
+.study_plan_leftbottom_div img,
+.study_plan_rightTop_div img,
+.study_plan_rightbottom_div img {
+  object-fit: contain;
+}
+
+.study_plan_middle_img {
+  position: relative;
+}
+.study_plan_middle_img img {
+  width: 55%;
+}
+/* .img {
+  vertical-align: middle;
+} */
+.study_plan_middle_img img.trophy_img {
+  left: 185px;
+  position: absolute;
+  bottom: 40px;
+  width: 80px;
+}
+.btn_shap_right {
+  padding: 15px;
+  background: #fbb710;
+  flex-grow: 1;
+  width: 10%;
+  position: absolute;
+  bottom: 17px;
+  right: 90px;
+  transform: rotate(179deg);
+}
+.arrow_right {
+  clip-path: polygon(
+    0 0%,
+    calc(100% - var(--pointy)) 0,
+    100% 50%,
+    calc(100% - var(--pointy)) 100%,
+    0 100%,
+    var(--pointy) 50%
+  );
+}
+.study_plan_middle_img {
+  position: relative;
+}
+.study_plan_middle_img h2.heading_title {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 113%;
+  text-align: center;
+  color: #ffffff;
+  background: #fbb710;
+  width: 50%;
+  border-radius: 1.90836px;
+  margin: 0 auto;
+  padding: 3px 0px;
+}
+.arrow {
+  clip-path: polygon(
+    0 0%,
+    calc(100% - var(--pointy)) 0,
+    100% 50%,
+    calc(100% - var(--pointy)) 100%,
+    0 100%,
+    var(--pointy) 50%
+  );
+}
+.btn_shap {
+  padding: 15px;
+  background: #fbb710;
+  flex-grow: 1;
+  width: 10%;
+  position: absolute;
+  bottom: 17px;
+  left: 92px;
+}
+.study_plan_middle_img p.paragraph_title {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 113%;
+  text-align: center;
+  color: #ffffff;
+}
+.study_plan_leftbottom_div {
+  position: absolute;
+  left: -35px;
+  bottom: 90px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.study_plan_leftbottom_div img {
+  margin-right: 10px;
+}
+.study_plan_rightbottom_div {
+  position: absolute;
+  right: -65px;
+  bottom: 60px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px 20px;
+}
+.study_plan_rightbottom_div img {
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .study_plan_now {
+    padding: 22px 0px;
+    background: #3dbca1;
+  }
+  header.header .navbar_expand_lg .navbar_collapse .navbar_nav {
+    float: left;
+  }
+  .study_plan_inner_con h2.heading_title {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  .study_plan_inner_con p {
+    font-size: 29px;
+    line-height: 33px;
+  }
+  .study_plan_inner_con {
+    margin-bottom: 25px;
+  }
+
+  .study_plan_leftTop_div {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 8px 10px;
+  }
+  .study_plan_leftTop_div p span,
+  .study_plan_rightTop_div span,
+  .study_plan_leftbottom_div span,
+  .study_plan_rightbottom_div span {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3dbca1;
+    display: block;
+  }
+
+  .study_plan_rightTop_div {
+    position: absolute;
+    right: -7px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 7px 9px;
+  }
+
+  .study_plan_rightbottom_div {
+    position: absolute;
+    right: -9px;
+    bottom: 58px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 7px 10px;
+  }
+
+  .study_plan_leftbottom_div {
+    position: absolute;
+    left: -10px;
+    bottom: 90px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px 6px;
+  }
+  .study_plan_middle_img img.trophy_img {
+    left: 146px;
+    position: absolute;
+    bottom: 30px;
+    width: 80px;
+  }
+  .study_plan_middle_img h2.heading_title {
+    font-size: 13px;
+  }
+  .study_plan_middle_img p.paragraph_title {
+    font-size: 13px;
+  }
+}

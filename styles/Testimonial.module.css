@@ -1,0 +1,92 @@
+.testimonial_sec {
+  padding: 50px 0px;
+  background: #9eded0;
+}
+.testimonial_sec h2 {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.testimonial {
+  display: block;
+  /* overflow: hidden; */
+}
+.testimonial .testimonial_info {
+  margin: 0 5px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 330px;
+  height: 330px;
+  width: 335px;
+}
+
+.testimonial .testimonial_info .testimonial_inner_block {
+  border-bottom: 2px solid #c5ebe3;
+}
+.testimonial .testimonial_info .testimonial_inner_block h5 {
+  display: flex;
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33.5531px;
+  line-height: 22px;
+  color: #000000;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.testimonial .testimonial_info .testimonial_inner_block p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.3;
+  margin-bottom: 1rem;
+}
+.testimonial .testimonial_info .testimonial_description p {
+  font-family: "Sofia Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial_sec h3.review_title {
+    text-align: center;
+  }
+  .testimonial_sec h3.review_title {
+    font-size: 35px;
+    line-height: 25px;
+  }
+  .testimonial .testimonial_info {
+    margin: 0 5px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 330px;
+    height: 330px;
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonial_sec h3.review_title {
+    font-size: 28px;
+  }
+  .testimonial_sec h2 {
+    font-size: 30px;
+  }
+  .testimonial .testimonial_info .testimonial_inner_block h5 {
+    font-size: 22px !important;
+  }
+}
