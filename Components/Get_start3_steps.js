@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Get3steps.module.css";
+import Image from "next/image";
 const Get_start3_steps = () => {
   return (
     <>
@@ -28,7 +29,11 @@ const Get_start3_steps = () => {
                       </p>
                     </div>
                     <div className="stepOneImg">
-                      <img src="images/step-1-img.png" />
+                      <Image
+                        src="/images/step-1-img.png"
+                        width={206}
+                        height={144}
+                      />
                     </div>
                   </div>
                 </div>
@@ -39,7 +44,11 @@ const Get_start3_steps = () => {
                 <div className="col-lg-12">
                   <div className={styles.step_tow_inner_div}>
                     <div className="steptowImg">
-                      <img src="images/step-2-img.png" />
+                      <Image
+                        src="/images/step-2-img.png"
+                        width={279}
+                        height={157}
+                      />
                     </div>
                     <div className="steptowParagraph">
                       <p>
@@ -69,7 +78,11 @@ const Get_start3_steps = () => {
                       </p>
                     </div>
                     <div className="stepthreeImg">
-                      <img src="images/step-3-img.png" />
+                      <Image
+                        src="/images/step-3-img.png"
+                        width={164}
+                        height={176}
+                      />
                     </div>
                   </div>
                 </div>

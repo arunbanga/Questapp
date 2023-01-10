@@ -4,6 +4,7 @@ import { Testimonialdata } from "./Data/Testimonialdata";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 const Testimonial = () => {
   const settings = {
     infinite: true,
@@ -64,10 +65,12 @@ const Testimonial = () => {
                             <div className={styles.testimonial_inner_block}>
                               <h5>
                                 {val.name}
-                                <img
+                                <Image
                                   className="star_icon"
                                   src={val.img}
                                   alt={val.rating}
+                                  width={110}
+                                  height={22}
                                 />
                               </h5>
                               <p>{val.event}</p>

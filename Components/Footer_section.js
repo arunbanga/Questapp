@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import styles from "../styles/Footer.module.css";
 import Modal from "react-modal";
+import Image from "next/image";
 const customStyles = {
   content: {
     top: "50%",
@@ -58,20 +59,24 @@ const Footer_section = () => {
                     href={"https://www.facebook.com/questtapp"}
                     target={"_blank"}
                   >
-                    <img
+                    <Image
                       className="facebook-icon"
-                      src="images/fb-icon.png"
+                      src="/images/fb-icon.png"
                       alt=""
+                      width={32}
+                      height={32}
                     />
                   </Link>
                   <Link
                     href={"https://www.instagram.com/questtapp"}
                     target={"_blank"}
                   >
-                    <img
+                    <Image
                       className={styles.instagram_icon}
-                      src="images/instagram-icon.png"
+                      src="/images/instagram-icon.png"
                       alt=""
+                      width={32}
+                      height={32}
                     />
                   </Link>
                 </div>

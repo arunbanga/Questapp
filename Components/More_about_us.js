@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Image from "next/image";
 const More_about_us = () => {
   const settings = {
     infinite: true,
@@ -70,11 +71,14 @@ const More_about_us = () => {
                         className={`${styles.slick_slide} instagram-slider-info`}
                       >
                         <div className={styles.instagram_slider_img}>
-                          <img
+                          <Image
                             className="rounded-top rounded-right"
                             src={val.image}
                             alt="Slider"
+                            width={285}
+                            height={174.41}
                           />
+
                           <div className={styles.slider_content}>
                             <h5>{val.headingone}</h5>
                             <h3>{val.headingtwo}</h3>

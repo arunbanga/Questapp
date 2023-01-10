@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
+import Image from "next/image";
 const Header = () => {
   return (
     <>
@@ -12,7 +13,11 @@ const Header = () => {
             >
               <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                  <img src="images/qustt-new-logo.png" />
+                  <Image
+                    src="/images/qustt-new-logo.png"
+                    width={174}
+                    height={55}
+                  />
                 </a>
                 <button
                   className="navbar-toggler"
@@ -40,15 +45,21 @@ const Header = () => {
                       href={"https://questt.onelink.me/7IhK/72udd25d"}
                       target={"_blank"}
                     >
-                      <img src="images/App_Store.png" />
+                      <Image
+                        src="/images/App_Store.png"
+                        width={120}
+                        height={40}
+                      />
                     </Link>
                     <Link
                       href={"https://questt.onelink.me/7IhK/72udd25d"}
                       target={"_blank"}
                     >
-                      <img
+                      <Image
                         className="gPay-play-btn"
-                        src="images/google-play-btn.png"
+                        src="/images/google-play-btn.png"
+                        width={136}
+                        height={41}
                       />
                     </Link>
                   </div>

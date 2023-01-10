@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Yourturn.module.css";
 import Link from "next/link";
+import Image from "next/image";
 const Its_your_turn = () => {
   return (
     <>
@@ -20,9 +21,11 @@ const Its_your_turn = () => {
                     target={"_blank"}
                     className="a"
                   >
-                    <img
+                    <Image
                       className={styles.gPay_play_btn}
-                      src="images/google-play-btn.png"
+                      src="/images/google-play-btn.png"
+                      width={136}
+                      height={41}
                     />
                   </Link>
                   <Link
@@ -30,13 +33,22 @@ const Its_your_turn = () => {
                     target={"_blank"}
                     className="a"
                   >
-                    <img src="images/App_Store.png" />
+                    <Image
+                      src="/images/App_Store.png"
+                      width={120}
+                      height={40}
+                    />
                   </Link>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className={styles.your_turn_img}>
-                  <img src="images/mobile-img-new2.jpg" alt="" />
+                  <Image
+                    src="/images/mobile-img-new2.jpg"
+                    alt=""
+                    width={284}
+                    height={330}
+                  />
                 </div>
               </div>
             </div>

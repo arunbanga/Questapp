@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Everystudent.module.css";
+import Image from "next/image";
 const Every_student_needs = () => {
   return (
     <>
@@ -33,12 +34,22 @@ const Every_student_needs = () => {
               </div>
               <div className="col-md-4">
                 <div className={styles.learning_needs_inner_con}>
-                  <img src="images/nework-search-img.png" alt="" />
+                  <Image
+                    src="/images/nework-search-img.png"
+                    alt=""
+                    width={402}
+                    height={334}
+                  />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className={styles.learning_needs_inner_con}>
-                  <img src="images/mobile-img.jpg" alt="" />
+                  <Image
+                    src="/images/mobile-img.jpg"
+                    alt=""
+                    width={394}
+                    height={364}
+                  />
                 </div>
               </div>
             </div>
@@ -47,10 +58,12 @@ const Every_student_needs = () => {
                 <div className={styles.student_input_details}>
                   <h3>
                     Student’s Inputs
-                    <img
+                    <Image
                       className={styles.arrow_right_one}
-                      src="images/arrow-right.png"
+                      src="/images/arrow-right.png"
                       alt=""
+                      width={191}
+                      height={16}
                     />
                   </h3>
                 </div>
@@ -59,10 +72,12 @@ const Every_student_needs = () => {
                 <div className={styles.student_input_details}>
                   <h3>
                     Questt AI
-                    <img
+                    <Image
                       className={styles.arrow_right_two}
-                      src="images/arrow-right.png"
+                      src="/images/arrow-right.png"
                       alt=""
+                      width={191}
+                      height={16}
                     />
                   </h3>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
+import Image from "next/image";
 const Study_to_plan_now = () => {
   return (
     <>
@@ -29,7 +30,12 @@ const Study_to_plan_now = () => {
               <div className="col-md-5">
                 <div className={styles.study_plan_right_sec}>
                   <div className={styles.study_plan_leftTop_div}>
-                    <img src="images/school-plan-img.png" />
+                    <Image
+                      src="/images/school-plan-img.png"
+                      width={32}
+                      height={37}
+                    />
+
                     <p>
                       <span>1300+</span>school
                     </p>
@@ -40,15 +46,28 @@ const Study_to_plan_now = () => {
                       <br /> points captured
                     </p>
 
-                    <img src="images/student-img.png" />
+                    <Image
+                      src="/images/student-img.png"
+                      width={29}
+                      height={49}
+                    />
                   </div>
                   <div className={styles.study_plan_middle_img}>
-                    <img src="images/Rectangle.png" alt="" />
-                    <img
-                      className={styles.trophy_img}
-                      src="images/trophy_flat.png"
+                    <Image
+                      src="/images/Rectangle.png"
                       alt=""
+                      width={248.04}
+                      height={263.32}
                     />
+
+                    <Image
+                      className={styles.trophy_img}
+                      src="/images/trophy_flat.png"
+                      alt=""
+                      width={80}
+                      height={82.57}
+                    />
+
                     <div className="btn-shap-area">
                       <div
                         className={`${styles.btn_shap_right} arrow-right`}
@@ -63,7 +82,13 @@ const Study_to_plan_now = () => {
                     </p>
                   </div>
                   <div className={styles.study_plan_leftbottom_div}>
-                    <img src="images/learning-data-img.png" alt="" />
+                    <Image
+                      src="/images/learning-data-img.png"
+                      alt=""
+                      width={38}
+                      height={37}
+                    />
+
                     <p>
                       <span>2M+</span>Students
                     </p>
@@ -76,7 +101,12 @@ const Study_to_plan_now = () => {
                       <br />
                       Students’ Learning
                     </p>
-                    <img src="images/average-improvement.png" alt="" />
+                    <Image
+                      src="/images/average-improvement.png"
+                      alt=""
+                      width={27}
+                      height={61}
+                    />
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../styles/Createplan.module.css";
+import Image from "next/image";
 const Create_my_plan = () => {
   return (
     <>
@@ -24,7 +25,12 @@ const Create_my_plan = () => {
                       </h2>
                     </div>
                     <div className="abs">
-                      <img src="images/schedule-img.png" alt="" />
+                      <Image
+                        src="/images/schedule-img.png"
+                        alt=""
+                        width={201}
+                        height={238}
+                      />
                     </div>
                   </div>
                 </Link>
@@ -43,7 +49,12 @@ const Create_my_plan = () => {
                       </h2>
                     </div>
                     <div className="abs">
-                      <img src="images/talk-specialist.png" alt="" />
+                      <Image
+                        src="/images/talk-specialist.png"
+                        alt=""
+                        width={204}
+                        height={170}
+                      />
                     </div>
                   </div>
                 </Link>

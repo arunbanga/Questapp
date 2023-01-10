@@ -5,7 +5,7 @@ export const Testimonialdata = [
     review:
       "Questt is the best app for exam preparation. I never thought I could revise everything but after using Questt, it feels like my life has changed!",
     rating: "5",
-    img: "images/star-img.png",
+    img: "/images/star-img.png",
   },
   {
     name: "John",
@@ -13,7 +13,7 @@ export const Testimonialdata = [
     review:
       "Questt is the best app for exam preparation. I never thought I could revise everything but after using Questt, it feels like my life has changed!",
     rating: "5",
-    img: "images/star-img.png",
+    img: "/images/star-img.png",
   },
   {
     name: "James",
@@ -21,7 +21,7 @@ export const Testimonialdata = [
     review:
       "Questt is the best app for exam preparation. I never thought I could revise everything but after using Questt, it feels like my life has changed!",
     rating: "5",
-    img: "images/star-img.png",
+    img: "/images/star-img.png",
   },
   {
     name: "Adam",
@@ -29,6 +29,6 @@ export const Testimonialdata = [
     review:
       "Questt is the best app for exam preparation. I never thought I could revise everything but after using Questt, it feels like my life has changed!",
     rating: "5",
-    img: "images/star-img.png",
+    img: "/images/star-img.png",
   },
 ];
