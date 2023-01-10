@@ -130,12 +130,25 @@ section.get_started_steps h2 {
 }
 
 @media screen and (max-width: 767px) {
-  .get_started_steps .step_one_inner_div h2 {
+  .get_started_steps .step_one_inner_div h2,
+  .get_started_steps .step_tow_inner_div h2,
+  .get_started_steps .step_three_inner_div h2 {
     font-size: 57px;
   }
   .get_started_steps .step_one_inner_div p {
     font-size: 12px !important;
-    padding: 0px 25px !important;
+    margin-top: -3px;
+    padding: 0px 20px !important;
+  }
+  .get_started_steps .step_tow_inner_div p {
+    font-size: 12px !important;
+    margin-top: -2px;
+    padding: 0px 20px !important;
+  }
+  .get_started_steps .step_three_inner_div p {
+    font-size: 12px !important;
+    margin-top: -25px;
+    padding: 0px 20px !important;
   }
   section.get_started_steps h2 {
     font-size: 31px;
@@ -161,11 +174,11 @@ section.get_started_steps h2 {
   .step_tow_inner_div .steptowParagraph {
     margin: 22px 0px;
   }
-}
-
-@media screen and (max-width: 767px) {
-  .get_started_steps p {
-    font-size: 20px;
+  .step1image,
+  .step2image,
+  .step3image {
+    width: 133px;
+    height: 74px;
   }
 }
 

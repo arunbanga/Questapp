@@ -32,6 +32,7 @@ const Study_to_plan_now = () => {
                   <div className={styles.study_plan_leftTop_div}>
                     <Image
                       src="/images/school-plan-img.png"
+                      alt=""
                       width={32}
                       height={37}
                     />
@@ -48,6 +49,7 @@ const Study_to_plan_now = () => {
 
                     <Image
                       src="/images/student-img.png"
+                      alt=""
                       width={29}
                       height={49}
                     />

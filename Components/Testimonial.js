@@ -50,7 +50,7 @@ const Testimonial = () => {
     <>
       <div>
         <section className={styles.testimonial_sec}>
-          <div className="container">
+          <div className={` ${styles.testcontainer} container`}>
             <div className="row">
               <div className="page_title">
                 <h2>Hear it from our Users</h2>

@@ -30,7 +30,9 @@ const Get_start3_steps = () => {
                     </div>
                     <div className="stepOneImg">
                       <Image
+                        className={styles.step1image}
                         src="/images/step-1-img.png"
+                        alt=""
                         width={206}
                         height={144}
                       />
@@ -45,7 +47,9 @@ const Get_start3_steps = () => {
                   <div className={styles.step_tow_inner_div}>
                     <div className="steptowImg">
                       <Image
+                        className={styles.step2image}
                         src="/images/step-2-img.png"
+                        alt=""
                         width={279}
                         height={157}
                       />
@@ -79,7 +83,9 @@ const Get_start3_steps = () => {
                     </div>
                     <div className="stepthreeImg">
                       <Image
+                        className={styles.step3image}
                         src="/images/step-3-img.png"
+                        alt=""
                         width={164}
                         height={176}
                       />

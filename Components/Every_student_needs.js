@@ -39,6 +39,7 @@ const Every_student_needs = () => {
                     alt=""
                     width={402}
                     height={334}
+                    className={styles.network}
                   />
                 </div>
               </div>
@@ -49,6 +50,7 @@ const Every_student_needs = () => {
                     alt=""
                     width={394}
                     height={364}
+                    className={styles.network}
                   />
                 </div>
               </div>

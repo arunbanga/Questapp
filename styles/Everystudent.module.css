@@ -75,6 +75,9 @@
   .study_plan_middle_img .btn_shap_area .btn_shap {
     left: 100px;
   }
+  .network {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .study_plan_inner_con h2.heading_title {

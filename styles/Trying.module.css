@@ -84,6 +84,11 @@
   .trying_to_solve_sec .still_confused {
     text-align: center;
   }
+  .trying_to_solve_sec img.tuition_arrow_img {
+    position: absolute;
+    bottom: -70px;
+    left: 72px;
+  }
 }
 
 @media screen and (max-width: 480px) {

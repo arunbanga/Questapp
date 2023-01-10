@@ -15,6 +15,7 @@ const Header = () => {
                 <a className="navbar-brand" href="#">
                   <Image
                     src="/images/qustt-new-logo.png"
+                    alt=""
                     width={174}
                     height={55}
                   />
@@ -47,6 +48,7 @@ const Header = () => {
                     >
                       <Image
                         src="/images/App_Store.png"
+                        alt=""
                         width={120}
                         height={40}
                       />
@@ -57,6 +59,7 @@ const Header = () => {
                     >
                       <Image
                         className="gPay-play-btn"
+                        alt=""
                         src="/images/google-play-btn.png"
                         width={136}
                         height={41}

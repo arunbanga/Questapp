@@ -24,6 +24,7 @@ const Its_your_turn = () => {
                     <Image
                       className={styles.gPay_play_btn}
                       src="/images/google-play-btn.png"
+                      alt=""
                       width={136}
                       height={41}
                     />
@@ -35,6 +36,7 @@ const Its_your_turn = () => {
                   >
                     <Image
                       src="/images/App_Store.png"
+                      alt=""
                       width={120}
                       height={40}
                     />
