@@ -72,7 +72,7 @@ const Every_student_needs = () => {
               </div>
               <div className="col-md-4">
                 <div className={styles.student_input_details}>
-                  <h3>
+                  <h3 className={styles.input}>
                     Questt AI
                     <Image
                       className={styles.arrow_right_two}
@@ -86,7 +86,7 @@ const Every_student_needs = () => {
               </div>
               <div className="col-md-2">
                 <div className={styles.student_input_details}>
-                  <h3 className="std-plan-title">Study Plan</h3>
+                  <h3 className={styles.input}>Study Plan</h3>
                 </div>
               </div>
               <div className={styles.our_study_plan}>

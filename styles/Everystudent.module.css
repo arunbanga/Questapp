@@ -78,6 +78,30 @@
   .network {
     width: 100%;
   }
+
+  .arrow_right_one {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .arrow_right_two {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .input {
+    margin-top: 100px;
+  }
 }
 @media screen and (max-width: 480px) {
   .study_plan_inner_con h2.heading_title {
