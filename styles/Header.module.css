@@ -52,7 +52,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   font-family: "Sofia Pro", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 68px;
+  font-size: 62px;
   line-height: 72px;
   text-transform: capitalize;
   color: #fff;
@@ -160,7 +160,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   position: relative;
 }
 .study_plan_middle_img img {
-  width: 55%;
+  width: 50%;
 }
 /* .img {
   vertical-align: middle;

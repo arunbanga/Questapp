@@ -58,8 +58,8 @@ const Study_to_plan_now = () => {
                     <Image
                       src="/images/Rectangle.png"
                       alt=""
-                      width={248.04}
-                      height={263.32}
+                      width={225.5}
+                      height={239.4}
                     />
 
                     <Image

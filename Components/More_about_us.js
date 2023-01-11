@@ -69,7 +69,7 @@ const More_about_us = () => {
               </div>
             </div>
           </div>
-          <div className={styles.instagram_slider}>
+          <div className={`${styles.instagram_slider} container`}>
             <Slider {...settings}>
               {users.map((val) => {
                 return (

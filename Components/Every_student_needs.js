@@ -37,8 +37,8 @@ const Every_student_needs = () => {
                   <Image
                     src="/images/nework-search-img.png"
                     alt=""
-                    width={402}
-                    height={334}
+                    width={355.99}
+                    height={331.19}
                     className={styles.network}
                   />
                 </div>
