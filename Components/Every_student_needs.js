@@ -58,7 +58,7 @@ const Every_student_needs = () => {
             <div className="row mt-5">
               <div className="col-md-6">
                 <div className={styles.student_input_details}>
-                  <h3>
+                  <h3 className={styles.inputs}>
                     Student’s Inputs
                     <Image
                       className={styles.arrow_right_one}
@@ -86,7 +86,7 @@ const Every_student_needs = () => {
               </div>
               <div className="col-md-2">
                 <div className={styles.student_input_details}>
-                  <h3 className={styles.input}>Study Plan</h3>
+                  <h3 className={styles.inputp}>Study Plan</h3>
                 </div>
               </div>
               <div className={styles.our_study_plan}>

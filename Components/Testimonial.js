@@ -8,7 +8,7 @@ import Image from "next/image";
 const Testimonial = () => {
   const settings = {
     infinite: true,
-    dots: false,
+    dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     lazyLoad: true,
@@ -19,14 +19,14 @@ const Testimonial = () => {
         breakpoint: 992,
         settings: {
           centerMode: true,
-          slidesToShow: 4,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 768,
         settings: {
           centerMode: true,
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {

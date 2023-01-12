@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import styles from "../styles/Footer.module.css";
 import Modal from "react-modal";
 import Image from "next/image";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
 const customStyles = {
   content: {
     top: "50%",
@@ -79,6 +81,26 @@ const Footer_section = () => {
                       height={32}
                     />
                   </Link>
+                  <Link
+                    href={"https://www.linkedin.com/company/questtapp"}
+                    target={"_blank"}
+                  >
+                    <p className={styles.linkedin}>
+                      <AiFillLinkedin
+                        style={{ width: "32px", height: "32px" }}
+                      />
+                    </p>
+                  </Link>
+                  <Link
+                    href={"https://twitter.com/questtapp"}
+                    target={"_blank"}
+                  >
+                    <p className={styles.twitter}>
+                      <AiOutlineTwitter
+                        style={{ width: "32px", height: "32px" }}
+                      />
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -95,7 +117,7 @@ const Footer_section = () => {
         contentLabel="Example Modal"
         ariaHideApp={false}
       >
-        <div className={styles.modal_dialog}>
+        <div className={`${styles.modal_dialog}`}>
           <div className={styles.modal_content}>
             <button
               type="button"

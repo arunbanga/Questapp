@@ -76,7 +76,7 @@ const What_we_are_trying = () => {
               <div className="col-md-3">
                 <div className={styles.still_confused}>
                   <Image
-                    className="still-confused-img"
+                    className={styles.confused_img}
                     src="/images/still-confused-new.png"
                     alt=""
                     width={237}

@@ -277,6 +277,25 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     font-size: 29px;
     line-height: 33px;
   }
+  .btn_shap {
+    padding: 12px;
+    background: #fbb710;
+    flex-grow: 1;
+    width: 10%;
+    position: absolute;
+    bottom: 17px;
+    left: 88px;
+  }
+  .btn_shap_right {
+    padding: 12px;
+    background: #fbb710;
+    flex-grow: 1;
+    width: 10%;
+    position: absolute;
+    bottom: 17px;
+    right: 88px;
+    transform: rotate(179deg);
+  }
   .study_plan_inner_con {
     margin-bottom: 25px;
   }
@@ -338,9 +357,51 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     width: 80px;
   }
   .study_plan_middle_img h2.heading_title {
-    font-size: 13px;
+    font-size: 11px;
   }
   .study_plan_middle_img p.paragraph_title {
     font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 996px) {
+  .study_plan_middle_img h2.heading_title {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 113%;
+    text-align: center;
+    color: #ffffff;
+    background: #fbb710;
+    width: 50%;
+    border-radius: 1.90836px;
+    margin: 0 auto;
+    padding: 3px 0px;
+  }
+  .btn_shap_right {
+    padding: 13px;
+    background: #fbb710;
+    flex-grow: 1;
+    width: 10%;
+    position: absolute;
+    bottom: 20px;
+    right: 42px;
+    transform: rotate(179deg);
+  }
+  .btn_shap {
+    padding: 13px;
+    background: #fbb710;
+    flex-grow: 1;
+    width: 10%;
+    position: absolute;
+    bottom: 20px;
+    left: 43px;
+  }
+  .study_plan_middle_img img.trophy_img {
+    left: 95px;
+    position: absolute;
+    bottom: 42px;
+    width: 80px;
   }
 }

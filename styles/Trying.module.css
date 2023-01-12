@@ -98,3 +98,40 @@
     margin-bottom: 20px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 996px) {
+  .student_img {
+    width: 100px;
+    height: 240px;
+  }
+
+  .trying_to_solve_sec .student img.student_arrow_img {
+    position: absolute;
+    bottom: 23px;
+    right: -100px;
+    width: 188px;
+  }
+  .trying_to_solve_sec img.school_arrow_img {
+    position: absolute;
+    top: -56px;
+    left: 106px;
+    width: 165px;
+  }
+  .trying_to_solve_sec img.school_img {
+    width: 180px;
+    height: 169px;
+  }
+  .trying_to_solve_sec img.tuition_img {
+    width: 180px;
+    height: 218px;
+  }
+  .confused_img {
+    width: 180px;
+    height: 218px;
+  }
+  .trying_to_solve_sec img.tuition_arrow_img {
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+  }
+}

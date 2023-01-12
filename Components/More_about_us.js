@@ -28,14 +28,14 @@ const More_about_us = () => {
         breakpoint: 992,
         settings: {
           centerMode: true,
-          slidesToShow: 4,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 768,
         settings: {
           centerMode: true,
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {

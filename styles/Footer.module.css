@@ -37,9 +37,14 @@ ul.footer_menu li a {
 .social_icon img.instagram_icon {
   margin-left: 15px;
 }
+.linkedin,
+.twitter {
+  color: white;
+  margin-left: 15px;
+}
 .iframe {
-  width: 1000px;
-  height: 500px;
+  width: 90vw;
+  height: 90vh;
 }
 .sr_only {
   position: absolute;
@@ -80,6 +85,6 @@ ul.footer_menu li a {
   }
   .iframe {
     width: auto;
-    height: 500px;
+    height: 90vh;
   }
 }
