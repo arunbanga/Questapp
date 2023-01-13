@@ -1,6 +1,7 @@
 .header {
   padding: 15px 0px;
 }
+
 header.header .navbar_expand_lg .navbar_collapse {
   justify-content: flex-end;
 }
@@ -19,6 +20,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav {
 header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   text-decoration: none;
 }
+
 .study_plan_now {
   padding: 50px 0px;
   background: #3dbca1;
@@ -208,7 +210,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   margin: 0 auto;
   padding: 3px 0px;
 }
-.arrow {
+.btn_shap .arrow {
   clip-path: polygon(
     0 0%,
     calc(100% - var(--pointy)) 0,
@@ -276,6 +278,12 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   .study_plan_inner_con p {
     font-size: 29px;
     line-height: 33px;
+  }
+  .appstore {
+    margin-top: 10px;
+  }
+  .googleplay {
+    margin-top: 10px;
   }
   .btn_shap {
     padding: 12px;
@@ -378,6 +386,70 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     border-radius: 1.90836px;
     margin: 0 auto;
     padding: 3px 0px;
+  }
+  .study_plan_inner_con h2.heading_title {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .study_plan_inner_con p {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000000;
+    text-shadow: none;
+    margin: 25px 0px 35px 0px;
+  }
+  .study_plan_leftTop_div {
+    position: absolute;
+    top: -46px;
+    left: -8px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 8px 10px;
+  }
+  .study_plan_rightTop_div {
+    position: absolute;
+    top: -46px;
+    right: -28px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 7px 9px;
+  }
+  .study_plan_leftbottom_div {
+    position: absolute;
+    left: -10px;
+    bottom: 73px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px 10px;
+  }
+  .appstore {
+    margin-top: 10px;
+  }
+  .googleplay {
+    margin-top: 10px;
+  }
+  .study_plan_middle_img img {
+    width: 80%;
+  }
+  .study_plan_rightbottom_div {
+    position: absolute;
+    right: -33px;
+    bottom: 60px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    padding: 6px 5px;
   }
   .btn_shap_right {
     padding: 13px;

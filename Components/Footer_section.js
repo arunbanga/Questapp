@@ -5,6 +5,8 @@ import Modal from "react-modal";
 import Image from "next/image";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 const customStyles = {
   content: {
     top: "50%",
@@ -61,25 +63,36 @@ const Footer_section = () => {
                     href={"https://www.facebook.com/questtapp"}
                     target={"_blank"}
                   >
-                    <Image
+                    {/* <Image
                       className="facebook-icon"
                       src="/images/fb-icon.png"
                       alt=""
                       width={32}
                       height={32}
-                    />
+                    /> */}
+
+                    <p className={styles.facebook}>
+                      <AiFillFacebook
+                        style={{ width: "32px", height: "32px" }}
+                      />
+                    </p>
                   </Link>
                   <Link
                     href={"https://www.instagram.com/questtapp"}
                     target={"_blank"}
                   >
-                    <Image
+                    {/* <Image
                       className={styles.instagram_icon}
                       src="/images/instagram-icon.png"
                       alt=""
                       width={32}
                       height={32}
-                    />
+                    /> */}
+                    <p className={styles.instagram}>
+                      <AiFillInstagram
+                        style={{ width: "32px", height: "32px" }}
+                      />
+                    </p>
                   </Link>
                   <Link
                     href={"https://www.linkedin.com/company/questtapp"}
@@ -117,7 +130,7 @@ const Footer_section = () => {
         contentLabel="Example Modal"
         ariaHideApp={false}
       >
-        <div className={`${styles.modal_dialog}`}>
+        <div className={`${styles.modal_dialog} modal-content`}>
           <div className={styles.modal_content}>
             <button
               type="button"

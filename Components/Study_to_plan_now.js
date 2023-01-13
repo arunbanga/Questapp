@@ -73,10 +73,16 @@ const Study_to_plan_now = () => {
                     <div className="btn-shap-area">
                       <div
                         className={`${styles.btn_shap_right} arrow-right`}
+                        // style={{
+                        //   clipPath: "polygon(50% 0, 100% 50%, 50% 100%, 0 50%)",
+                        // }}
                       ></div>
                       <h2 className={styles.heading_title}>Best App of 2022</h2>
                       <div
-                        className={`${styles.btn_shap} ${styles.arrow}`}
+                        className={`${styles.btn_shap} ,${styles.arrow}`}
+                        // style={{
+                        //   clipPath: "polygon(50% 0, 100% 50%, 50% 100%, 0 50%)",
+                        // }}
                       ></div>
                     </div>
                     <p className={styles.paragraph_title}>

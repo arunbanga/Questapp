@@ -49,6 +49,7 @@ const Header = () => {
                       <Image
                         src="/images/App_Store.png"
                         alt=""
+                        className={styles.appstore}
                         width={120}
                         height={40}
                       />
@@ -58,7 +59,7 @@ const Header = () => {
                       target={"_blank"}
                     >
                       <Image
-                        className="gPay-play-btn"
+                        className={styles.googleplay}
                         alt=""
                         src="/images/google-play-btn.png"
                         width={136}

@@ -151,7 +151,8 @@ section.get_started_steps h2 {
     padding: 0px 20px !important;
   }
   section.get_started_steps h2 {
-    font-size: 31px;
+    font-size: 28px;
+    text-align: center;
   }
   .started_steps_inner_con.step2 {
     padding-top: 0;

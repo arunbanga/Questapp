@@ -85,9 +85,7 @@
     text-align: center;
   }
   .trying_to_solve_sec img.tuition_arrow_img {
-    position: absolute;
-    bottom: -70px;
-    left: 72px;
+    display: none;
   }
 }
 

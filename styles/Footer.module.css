@@ -38,7 +38,9 @@ ul.footer_menu li a {
   margin-left: 15px;
 }
 .linkedin,
-.twitter {
+.twitter,
+.facebook,
+.instagram {
   color: white;
   margin-left: 15px;
 }
@@ -86,5 +88,14 @@ ul.footer_menu li a {
   .iframe {
     width: auto;
     height: 90vh;
+  }
+  ul.footer_menu li a {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
   }
 }

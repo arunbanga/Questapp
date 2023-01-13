@@ -105,3 +105,18 @@ a {
     color-scheme: dark;
   }
 } */
+
+.Header_navbar_nav__kpV2m.navbar-nav {
+  float: left !important;
+}
+
+.arrow {
+  clip-path: polygon(
+    0 0%,
+    calc(100% - var(--pointy)) 0,
+    100% 50%,
+    calc(100% - var(--pointy)) 100%,
+    0 100%,
+    var(--pointy) 50%
+  );
+}
