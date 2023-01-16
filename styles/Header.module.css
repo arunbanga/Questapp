@@ -174,25 +174,16 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   width: 80px;
 }
 .btn_shap_right {
-  padding: 15px;
-  background: #fbb710;
+  padding: 16px;
   flex-grow: 1;
   width: 10%;
   position: absolute;
-  bottom: 17px;
-  right: 90px;
+  bottom: 16px;
+  right: 85px;
   transform: rotate(179deg);
+  background-image: url(/images/Exclude.png);
 }
-.arrow_right {
-  clip-path: polygon(
-    0 0%,
-    calc(100% - var(--pointy)) 0,
-    100% 50%,
-    calc(100% - var(--pointy)) 100%,
-    0 100%,
-    var(--pointy) 50%
-  );
-}
+
 .study_plan_middle_img {
   position: relative;
 }
@@ -210,24 +201,15 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   margin: 0 auto;
   padding: 3px 0px;
 }
-.btn_shap .arrow {
-  clip-path: polygon(
-    0 0%,
-    calc(100% - var(--pointy)) 0,
-    100% 50%,
-    calc(100% - var(--pointy)) 100%,
-    0 100%,
-    var(--pointy) 50%
-  );
-}
+
 .btn_shap {
-  padding: 15px;
-  background: #fbb710;
+  padding: 16px;
   flex-grow: 1;
   width: 10%;
   position: absolute;
   bottom: 17px;
-  left: 92px;
+  left: 85px;
+  background-image: url("/images/Exclude.png");
 }
 .study_plan_middle_img p.paragraph_title {
   font-family: "Sofia Pro", sans-serif;
@@ -286,23 +268,23 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     margin-top: 10px;
   }
   .btn_shap {
-    padding: 12px;
-    background: #fbb710;
+    padding: 16px;
     flex-grow: 1;
     width: 10%;
     position: absolute;
-    bottom: 17px;
-    left: 88px;
+    bottom: 15px;
+    left: 68px;
+    background-image: url(/images/Exclude.png);
   }
   .btn_shap_right {
-    padding: 12px;
-    background: #fbb710;
+    padding: 16px;
     flex-grow: 1;
     width: 10%;
     position: absolute;
-    bottom: 17px;
-    right: 88px;
+    bottom: 15px;
+    right: 67px;
     transform: rotate(179deg);
+    background-image: url(/images/Exclude.png);
   }
   .study_plan_inner_con {
     margin-bottom: 25px;
@@ -361,7 +343,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   .study_plan_middle_img img.trophy_img {
     left: 146px;
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
     width: 80px;
   }
   .study_plan_middle_img h2.heading_title {
@@ -369,6 +351,20 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   }
   .study_plan_middle_img p.paragraph_title {
     font-size: 13px;
+  }
+  .study_plan_middle_img h2.heading_title {
+    font-family: "Sofia Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 113%;
+    text-align: center;
+    color: #ffffff;
+    background: #fbb710;
+    width: 50%;
+    border-radius: 1.90836px;
+    margin: 0 auto;
+    padding: 6px 0px;
   }
 }
 
@@ -385,7 +381,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     width: 50%;
     border-radius: 1.90836px;
     margin: 0 auto;
-    padding: 3px 0px;
+    padding: 4px 0px;
   }
   .study_plan_inner_con h2.heading_title {
     font-family: "Sofia Pro", sans-serif;
@@ -452,23 +448,23 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     padding: 6px 5px;
   }
   .btn_shap_right {
-    padding: 13px;
-    background: #fbb710;
+    padding: 14px;
     flex-grow: 1;
-    width: 10%;
+    width: 12%;
     position: absolute;
-    bottom: 20px;
-    right: 42px;
+    bottom: 19px;
+    right: 36px;
     transform: rotate(179deg);
+    background-image: url(/images/Exclude.png);
   }
   .btn_shap {
-    padding: 13px;
-    background: #fbb710;
+    padding: 15px;
     flex-grow: 1;
-    width: 10%;
+    width: 12%;
     position: absolute;
-    bottom: 20px;
-    left: 43px;
+    bottom: 19px;
+    left: 37px;
+    background-image: url(/images/Exclude.png);
   }
   .study_plan_middle_img img.trophy_img {
     left: 95px;

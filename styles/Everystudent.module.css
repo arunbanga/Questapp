@@ -185,4 +185,53 @@
   .network {
     width: 100%;
   }
+
+  .row {
+    display: block;
+    flex-direction: column;
+  }
+  .student_input_details {
+    margin-top: -17px;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .arrow_right_one {
+    display: flex;
+    flex-direction: row;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 100px;
+    margin: auto;
+  }
+  .arrow_right_one {
+    margin-top: 50px;
+  }
+  .arrow_right_two {
+    margin-top: 49px;
+    display: flex;
+    flex-direction: row;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 109px;
+  }
+  .inputp {
+    margin-top: 55px;
+  }
+  /* .arrow_right_one {
+   
+    margin: auto;
+  } */
+  .inputs {
+    margin-bottom: 100px;
+  }
+  .input {
+    margin-top: -40px;
+  }
 }
