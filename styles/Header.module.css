@@ -96,6 +96,10 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
   margin-left: 15px;
   border: none;
 }
+.heading_title_arrow {
+  position: relative;
+  background: #edad10 !important;
+}
 .study_plan_right_sec {
   text-align: center;
   position: relative;
@@ -277,7 +281,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     background-image: url(/images/Exclude.png);
   }
   .btn_shap_right {
-    padding: 16px;
+    padding: 15px;
     flex-grow: 1;
     width: 10%;
     position: absolute;
