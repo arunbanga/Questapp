@@ -5,6 +5,18 @@ const Every_student_needs = () => {
   return (
     <>
       <div>
+        <style jsx>
+          {`@media (min-width: 768px) and (max-width: 996px) {
+    .network {
+    width: 100%;
+  }
+  .Everystudent_row__t1Qx7.row.mt-5 .col-md-6,
+  .Everystudent_row__t1Qx7.row.mt-5 .col-md-4,
+  .Everystudent_row__t1Qx7.row.mt-5 .col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+  }`}
+        </style>
         <section className={styles.every_student_needs_personalised}>
           <div className="container">
             <div className="row mb-5">
@@ -55,8 +67,8 @@ const Every_student_needs = () => {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
-              <div className="col-md-6">
+            <div className={`${styles.row} row mt-5`}>
+              <div className={`${styles.custom_mobilearrow} col-md-6`}>
                 <div className={styles.student_input_details}>
                   <h3 className={styles.inputs}>
                     Student’s Inputs
@@ -70,7 +82,7 @@ const Every_student_needs = () => {
                   </h3>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className={`${styles.custom_mobilearrow} col-md-4`}>
                 <div className={styles.student_input_details}>
                   <h3 className={styles.input}>
                     Questt AI
@@ -84,7 +96,7 @@ const Every_student_needs = () => {
                   </h3>
                 </div>
               </div>
-              <div className="col-md-2">
+              <div className={`${styles.custom_mobilearrow} col-md-2`}>
                 <div className={styles.student_input_details}>
                   <h3 className={styles.inputp}>Study Plan</h3>
                 </div>
