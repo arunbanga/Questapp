@@ -334,7 +334,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     display: flex;
     padding: 7px 10px;
   }
-
+ 
   .study_plan_leftbottom_div {
     position: absolute;
     left: -10px;
@@ -344,6 +344,7 @@ header.header .navbar_expand_lg .navbar_collapse .navbar_nav a:hover {
     display: flex;
     padding: 10px 6px;
   }
+  
   .study_plan_middle_img img.trophy_img {
     left: 146px;
     position: absolute;
